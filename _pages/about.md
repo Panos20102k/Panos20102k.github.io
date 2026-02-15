@@ -1,7 +1,8 @@
 ---
 layout: single
-author_profile: true
 title: ""
+permalink: /
+author_profile: true
 ---
 
 # About Me
