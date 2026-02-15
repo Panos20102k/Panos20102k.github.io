@@ -35,7 +35,7 @@ We study optimal control with imperfect models and learn corrections to the Hami
 - 🎥 Project Video:
 
 <iframe width="560" height="315" 
-src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+src="https://www.youtube.com/embed/3Of0j3a5fGw" 
 frameborder="0" 
 allowfullscreen>
 </iframe>
