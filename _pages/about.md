@@ -7,7 +7,7 @@ author_profile: true
 
 # About Me
 
-I am a PhD student in Systems Engineering at Cornell University.  
+I am a 2nd year PhD student in Systems Engineering at Cornell University, advised by Prof. Andreas Malikopoulos. 
 My research focuses on optimal control, adaptive control, and learning-based control methods with applications to robotic systems (e.g., LIMO robots).
 
 Previously, I received my [degree] from [University Name], where I worked on [brief description].
@@ -25,12 +25,12 @@ Previously, I received my [degree] from [University Name], where I worked on [br
 
 # Projects
 
-## Hamiltonian Residual Learning for Optimal Control
+## Real-Time Optimal Multi-Robot Navigation
 
-Short description of the project.  
+In this project we achieve real-time optimal multi-robot navigation by solving the   
 We study optimal control with imperfect models and learn corrections to the Hamiltonian.
 
-- 📄 [Paper](https://link-to-paper.com)
+- 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11312656)
 - 💻 [GitHub Repository](https://github.com/yourusername/repo)
 - 🎥 Project Video:
 
