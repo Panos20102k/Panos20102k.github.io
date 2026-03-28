@@ -96,4 +96,4 @@ allowfullscreen>
 # Teaching
 
 - Lead Teaching Assistant – CEE 3040 Uncertainty Analysis in Engineering (Cornell, Fall 2025)
-- Teaching Assistant – CEE 6080 Optimal Control \& Decision Theory (Cornell, Spring 2026)
+- Teaching Assistant – CEE 6080 Optimal Control & Decision Theory (Cornell, Spring 2026)
