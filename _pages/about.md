@@ -64,6 +64,27 @@ I implemented a gradient-free stochastic optimization algorithm on linear system
 
 ---
 
+## Vehicle Dynamics Modeling for Autonomous Racing
+
+In this project, I developed a vehicle model to enable a thorough evaluation of vehicle motion controllers in
+simulation: Diploma Thesis. 
+
+- 📄 [Paper](https://dspace.lib.ntua.gr/xmlui/handle/123456789/58426)
+
+I then contributed to an extension of this model, which now runs on the
+software stack of the TUM Autonomous Motorsport team and is used to evaluate vehicle motion
+controllers in simulation. The model is validated against data recorded from the fastest lap of TUM Autonomous Motorsport in Monza 2023, with vehicle speeds up to 267 km/h.
+
+- 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/10588858)
+- 💻 [GitHub Repository](https://github.com/TUMFTM/Open-Car-Dynamics)
+- 🎥 Project Video:
+
+<iframe width="560" height="315" 
+src="https://www.youtube.com/watch?v=2uVidmMZ9ns" 
+frameborder="0" 
+allowfullscreen>
+</iframe>
+
 # Fellowships & Awards
 
 - Cornell Graduate Fellowship (2025)
