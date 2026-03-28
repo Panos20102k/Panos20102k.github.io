@@ -7,8 +7,8 @@ author_profile: true
 
 # About Me
 
-I am a 2nd year PhD student in Systems Engineering at Cornell University, advised by Prof. Andreas Malikopoulos. 
-My research focuses on optimal control, adaptive control, and learning-based control methods with applications to robotic systems (e.g., LIMO robots).
+I am a PhD student in Systems Engineering at Cornell University, advised by Prof. [Andreas Malikopoulos](https://ids-lab.net/). 
+I work on learning-based control methods with applications to robotic systems (e.g., LIMO robots).
 
 Previously, I received my [degree] from [University Name], where I worked on [brief description].
 
