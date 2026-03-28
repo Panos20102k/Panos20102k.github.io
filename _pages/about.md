@@ -22,7 +22,6 @@ Previously, I received my [degree] from [University Name], where I worked on [br
 4. **Aug 2025** – Started PhD at Cornell University.
 
 --- -->
-
 # Projects
 
 ## Real-Time Optimal Multi-Robot Navigation
