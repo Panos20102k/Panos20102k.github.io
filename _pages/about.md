@@ -12,7 +12,7 @@ My research focuses on optimal control, adaptive control, and learning-based con
 
 Previously, I received my [degree] from [University Name], where I worked on [brief description].
 
----
+<!-- --- -->
 
 <!-- # News
 
@@ -27,8 +27,7 @@ Previously, I received my [degree] from [University Name], where I worked on [br
 
 ## Real-Time Optimal Multi-Robot Navigation
 
-In this project we achieve real-time optimal multi-robot navigation by solving the   
-We study optimal control with imperfect models and learn corrections to the Hamiltonian.
+In this project we developed a machine-learning based navigation stack for multi-robot navigation with joint optimiziation of the robots' trajectories.
 
 - 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11312656)
 - 💻 [GitHub Repository](https://github.com/yourusername/repo)
