@@ -14,14 +14,14 @@ Previously, I received my [degree] from [University Name], where I worked on [br
 
 ---
 
-# News
+<!-- # News
 
 1. **Feb 2026** – Paper accepted at IEEE CDC 2026.
 2. **Jan 2026** – Released new GitHub repository on Hamiltonian residual learning.
 3. **Dec 2025** – Presented work at [Conference Name].
 4. **Aug 2025** – Started PhD at Cornell University.
 
----
+--- -->
 
 # Projects
 
