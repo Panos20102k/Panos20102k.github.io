@@ -41,11 +41,11 @@ allowfullscreen>
 
 ## Optimal Control with Unknown Dynamics
 
-I analyzed and implemented a novel framework for safety-constrained continuous optimal control problems with unknown dynamics. I derived its theoretical results based on convex analysis and Pontryagin's Minimum Principle and validated the framework on a cruise control application to real wheeled robots.
+<!-- I analyzed and implemented a novel framework for safety-constrained continuous optimal control problems with unknown dynamics. I derived its theoretical results based on convex analysis and Pontryagin's Minimum Principle and validated the framework on a cruise control application to real wheeled robots.
 
-<!-- - 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11312656) -->
+- 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11312656)
 - 💻 [GitHub Repository](https://github.com/Panos20102k/Multi-Limo-Control) 
-<!-- - 🎥 Project Video:
+- 🎥 Project Video:
 
 <iframe width="560" height="315" 
 src="https://www.youtube.com/embed/3Of0j3a5fGw" 
