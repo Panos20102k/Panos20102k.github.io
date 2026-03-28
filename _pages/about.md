@@ -10,7 +10,9 @@ author_profile: true
 I am a PhD student in Systems Engineering at Cornell University, advised by Prof. [Andreas Malikopoulos](https://ids-lab.net/). 
 I work on learning-based control methods with applications to robotic systems (e.g., LIMO robots).
 
-Previously, I received my [degree] from [University Name], where I worked on [brief description].
+Previously, I was a graduate researcher at the Institute of Automotive Technology at the Technical University of Munice (TUM), advised by Dr. Simon Sagmeister, team lead of TUM Autonomous Motorsport.
+
+I received my Diploma (integrated Bachelor & Master) in Mechanical Engineering from the National Technical University of Athens (NTUA) with a GPA of 8.82/10.00, which ranked in the top 3.57%.
 
 <!-- --- -->
 
