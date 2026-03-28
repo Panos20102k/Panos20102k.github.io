@@ -41,10 +41,26 @@ allowfullscreen>
 
 ## Optimal Control with Unknown Dynamics
 
-In this project, I analyzed and implemented a novel framework for optimal control problems with unknown dynamics based on dynamic programming and stochastic gradient descent. I also implemented benchmark reinforcement learning algorithms: Policy Gradient, Random Search and Q-learning, and compared them all in the linear quadratic regulator problem.
+I analyzed and implemented a novel framework for safety-constrained continuous optimal control problems with unknown dynamics. I derived its theoretical results based on convex analysis and Pontryagin's Minimum Principle and validated the framework on a cruise control application to real wheeled robots.
+
+<!-- - 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11312656) -->
+- 💻 [GitHub Repository](https://github.com/Panos20102k/Multi-Limo-Control) 
+<!-- - 🎥 Project Video:
+
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/3Of0j3a5fGw" 
+frameborder="0" 
+allowfullscreen>
+</iframe> -->
+
+I analyzed and implemented a new algorithm for optimal control problems with unknown dynamics based on dynamic programming and stochastic gradient descent. I also implemented benchmark reinforcement learning algorithms: Policy Gradient, Random Search and Q-learning, and compared them with our own developed framework in the linear quadratic regulator problem.
 
 - 📄 [Paper](https://arxiv.org/abs/2510.00308)
 - 💻 [GitHub Repository](https://github.com/Panos20102k/Learning-LQR)
+
+I implemented a gradient-free stochastic optimization algorithm on linear systems and validated its theoretical robustness properties
+
+- 📄 [Paper](https://arxiv.org/abs/2506.12596)
 
 ---
 
