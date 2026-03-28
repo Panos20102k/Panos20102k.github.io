@@ -14,6 +14,8 @@ Previously, I was a graduate researcher at the [Institute of Automotive Technolo
 
 I received my Diploma (integrated Bachelor & Master) in Mechanical Engineering from the National Technical University of Athens (NTUA) with a GPA of 8.82/10.00, which ranked in the top 3.57%.
 
+---
+
 <!-- --- -->
 
 <!-- # News
