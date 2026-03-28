@@ -27,10 +27,10 @@ Previously, I received my [degree] from [University Name], where I worked on [br
 
 ## Real-Time Optimal Multi-Robot Navigation
 
-In this project we developed a machine-learning based navigation stack for multi-robot navigation with joint optimiziation of the robots' trajectories.
+In this project we developed a machine learning-based algorithm for real-time multi-robot navigation with joint optimiziation of the robots' trajectories. To achieve this we leverage graph neural networks to accelerate the solution of the multi-robot mixed-integer quadratic program (MIQP). The navigation stack that we developed in this work is validated on the LIMO ROS2 robots, showcasing solution of the multi-robot MIQP in less than every 200 ms, with vehicle speeds up to 0.5 m/sec.
 
 - 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11312656)
-- 💻 [GitHub Repository](https://github.com/yourusername/repo)
+<!-- - 💻 [GitHub Repository](https://github.com/Panos20102k/Multi-Limo-Control) -->
 - 🎥 Project Video:
 
 <iframe width="560" height="315" 
