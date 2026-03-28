@@ -26,7 +26,7 @@ author:
   avatar           : "Photo_Kounatidis.jpg"
   name             : "Panagiotis Kounatidis"
   pronouns         : # example: "she/her"  
-  bio              : "I am a PhD student"
+  bio              : "PhD student in Systems Engineering"
   location         : "Ithaca, NY, USA"
   employer         : "Cornell University"
   uri              : # URL
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
