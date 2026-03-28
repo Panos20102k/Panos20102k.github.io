@@ -87,14 +87,13 @@ allowfullscreen>
 
 # Fellowships & Awards
 
-- Cornell Graduate Fellowship (2025)
-- Best Paper Award – [Conference Name]
-- [Any additional honors]
+- Cornell Systems Engineering Fellowship (2024-2025)
+- IEEE CDC 2026 Student Travel Award
+- ACC 2026 Student Travel Award
 
 ---
 
 # Teaching
 
-- Teaching Assistant – Optimal Control (Cornell, Fall 2025)
-- Guest Lecturer – Reinforcement Learning
-- Mentor – Undergraduate Robotics Projects
+- Lead Teaching Assistant – CEE 3040 Uncertainty Analysis in Engineering (Cornell, Fall 2025)
+- Teaching Assistant – CEE 6080 Optimal Control \& Decision Theory (Cornell, Spring 2026)
