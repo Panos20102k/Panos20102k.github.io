@@ -71,7 +71,7 @@ I implemented a gradient-free stochastic optimization algorithm on linear system
 ## Vehicle Dynamics Modeling for Autonomous Racing
 
 In this project, I developed a vehicle model to enable a thorough evaluation of vehicle motion controllers in
-simulation: Diploma Thesis. 
+simulation.
 
 - 📄 [Paper](https://dspace.lib.ntua.gr/xmlui/handle/123456789/58426)
 
