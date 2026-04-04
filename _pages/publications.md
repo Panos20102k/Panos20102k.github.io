@@ -5,6 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 ---
+**Combined Learning and Control: A New Paradigm for Optimal Control with Unknown Dynamics**  
+P. Kounatidis, and A. A. Malikopoulos, *arXiv preprint arXiv: 2510.00308*
+[Paper](https://arxiv.org/abs/2510.00308)
+
 **On the Robustness of Derivative-free Methods for Linear Quadratic Regulator**  
 W. Li, P. Kounatidis, and A. A. Malikopoulos, *arXiv preprint arXiv: 2506.12596*
 [Paper](https://arxiv.org/abs/2506.12596)
