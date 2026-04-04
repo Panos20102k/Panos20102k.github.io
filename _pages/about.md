@@ -81,13 +81,13 @@ controllers in simulation. The model is validated against data recorded from the
 
 - 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/10588858)
 - 💻 [GitHub Repository](https://github.com/TUMFTM/Open-Car-Dynamics)
-- 🎥 Project Video:
+- 🎥 [Project Video](https://www.youtube.com/watch?v=2uVidmMZ9ns)
 
-<iframe width="560" height="315" 
+<!-- <iframe width="560" height="315" 
 src="https://www.youtube.com/watch?v=2uVidmMZ9ns" 
 frameborder="0" 
 allowfullscreen>
-</iframe>
+</iframe> -->
 
 ---
 
