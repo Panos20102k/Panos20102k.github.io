@@ -94,7 +94,7 @@ allowfullscreen>
 # Fellowships & Awards
 
 - Cornell Systems Engineering Fellowship (2024-2025)
-- IEEE CDC 2026 Student Travel Award
+- IEEE CDC 2025 Student Travel Award
 - ACC 2026 Student Travel Award
 
 ---
