@@ -43,21 +43,21 @@ allowfullscreen>
 
 ---
 
-## Optimal Control with Unknown Dynamics
+## Optimal Control for Unknown Dynamics
 
-I analyzed and implemented a novel framework for safety-constrained continuous optimal control problems with unknown dynamics. I derived its theoretical results based on convex analysis and Pontryagin's Minimum Principle and validated the framework on a cruise control application to real wheeled robots.
+I analyzed and implemented a novel framework for safety-constrained continuous optimal control problems with unknown system dynamics. I derived its theoretical results based on convex analysis and Pontryagin's Minimum Principle and validated the framework on a cruise control application to real wheeled robots.
 
 - 📄 [Paper](https://arxiv.org/abs/2603.27677)
 - 💻 [GitHub Repository](https://github.com/Panos20102k/Multi-Limo-Control) 
-- 🎥 Project Video:
+- 🎥 [Project Video](https://www.youtube.com/watch?v=pMSZKlU5O44)
 
-<iframe width="560" height="315" 
+<!-- <iframe width="560" height="315" 
 src="https://www.youtube.com/watch?v=pMSZKlU5O44" 
 frameborder="0" 
 allowfullscreen>
-</iframe>
+</iframe> -->
 
-I analyzed and implemented a new algorithm for optimal control problems with unknown dynamics based on dynamic programming and stochastic gradient descent. I also implemented benchmark reinforcement learning algorithms: Policy Gradient, Random Search and Q-learning, and compared them with our own developed framework in the linear quadratic regulator problem.
+I analyzed and implemented a new algorithm for optimal control problems with unknown system dynamics based on dynamic programming and stochastic gradient descent. I also implemented benchmark reinforcement learning algorithms: Policy Gradient, Random Search and Q-learning, and compared them with our own developed framework in the linear quadratic regulator problem.
 
 - 📄 [Paper](https://arxiv.org/abs/2510.00308)
 - 💻 [GitHub Repository](https://github.com/Panos20102k/Learning-LQR)
