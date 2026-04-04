@@ -8,12 +8,12 @@ author_profile: true
 **Combined Learning and Control: A New Paradigm for Optimal Control with Unknown Dynamics**  
 P. Kounatidis, and A. A. Malikopoulos  
 *arXiv preprint arXiv: 2510.00308*  
-[Paper](https://arxiv.org/abs/2510.00308), [Code](https://github.com/Panos20102k/Learning-LQR)
+[Paper](https://arxiv.org/abs/2510.00308)
 
 **Combined Learning and Control: A New Paradigm for Optimal Control with Unknown Dynamics**  
 P. Kounatidis, and A. A. Malikopoulos  
 *arXiv preprint arXiv: 2510.00308*  
-[Paper](https://arxiv.org/abs/2510.00308)
+[Paper](https://arxiv.org/abs/2510.00308), [Code](https://github.com/Panos20102k/Learning-LQR)
 
 **On the Robustness of Derivative-free Methods for Linear Quadratic Regulator**  
 W. Li, P. Kounatidis, and A. A. Malikopoulos, *arXiv preprint arXiv: 2506.12596*
