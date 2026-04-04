@@ -18,5 +18,5 @@ S. Sagmeister, P. Kounatidis, S. Goblirsch and M. Lienkamp, Proceedings of the *
 [Paper](https://ieeexplore.ieee.org/abstract/document/10588858), [Code](https://github.com/TUMFTM/Open-Car-Dynamics), [Video](https://www.youtube.com/watch?v=2uVidmMZ9ns)
 
 **Development of an Open-Source Vehicle Model for Rating Control Performance in Autonomous Driving**  
-P. Kounatidis, Diploma Thesis
+P. Kounatidis, *Diploma Thesis*
 [Paper](https://dspace.lib.ntua.gr/xmlui/handle/123456789/58426)
