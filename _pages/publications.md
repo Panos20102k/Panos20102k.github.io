@@ -5,10 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 ---
-**Combined Learning and Control: A New Paradigm for Optimal Control with Unknown Dynamics**  
-P. Kounatidis, and A. A. Malikopoulos  
-*arXiv preprint arXiv: 2510.00308*  
-[Paper](https://arxiv.org/abs/2510.00308)
+**Safety-Constrained Optimal Control for Unknown System Dynamics**  
+P. Kounatidis, and A. A. Malikopoulos    
+*arXiv preprint arXiv: 2603.27677*    
+[Paper](https://arxiv.org/abs/2603.27677)
 
 **Combined Learning and Control: A New Paradigm for Optimal Control with Unknown Dynamics**  
 P. Kounatidis, and A. A. Malikopoulos  
