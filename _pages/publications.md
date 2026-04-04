@@ -13,6 +13,6 @@ V.-A. Le, P. Kounatidis, and A. A. Malikopoulos, Proceedings of the *2025 IEEE 6
 S. Sagmeister, P. Kounatidis, S. Goblirsch and M. Lienkamp, Proceedings of the *2024 IEEE Intelligent Vehicles Symposium (IV)*  
 [Paper](https://ieeexplore.ieee.org/abstract/document/10588858), [Code](https://github.com/TUMFTM/Open-Car-Dynamics), [Video](https://www.youtube.com/watch?v=2uVidmMZ9ns)
 
-**Analyzing the Impact of Simulation Fidelity on the Evaluation of Autonomous Driving Motion Control**  
-S. Sagmeister, P. Kounatidis, S. Goblirsch and M. Lienkamp, Proceedings of the *2024 IEEE Intelligent Vehicles Symposium (IV)*  
-[Paper](https://ieeexplore.ieee.org/abstract/document/10588858), [Code](https://github.com/TUMFTM/Open-Car-Dynamics), [Video](https://www.youtube.com/watch?v=2uVidmMZ9ns)
+**Development of an Open-Source Vehicle Model for Rating Control Performance in Autonomous Driving**  
+P. Kounatidis, Diploma Thesis
+[Paper](https://dspace.lib.ntua.gr/xmlui/handle/123456789/58426)
