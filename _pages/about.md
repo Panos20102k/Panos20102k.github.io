@@ -7,7 +7,7 @@ author_profile: true
 
 # About Me
 
-I am a PhD student in Systems Engineering at Cornell University, advised by Prof. [Andreas Malikopoulos](https://ids-lab.net/). 
+I am a PhD candidate in Systems Engineering at Cornell University, advised by Prof. [Andreas Malikopoulos](https://ids-lab.net/). 
 I work on learning-based control methods for multi-robot systems. I operate the [LIMO ROS2 robots](https://global.agilex.ai/products/limo-ros2).
 
 Previously, I was a graduate researcher at the [Institute of Automotive Technology](https://www.mos.ed.tum.de/ftm/startseite/) at the Technical University of Munich (TUM), advised by Dr. [Simon Sagmeister](https://www.mos.ed.tum.de/ftm/personen/mitarbeiter/simon-sagmeister-m-sc/), team lead of [TUM Autonomous Motorsport](https://www.mos.ed.tum.de/en/ftm/main-research/intelligent-vehicle-systems/tum-autonomous-motorsport/).
