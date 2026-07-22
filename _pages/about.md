@@ -45,6 +45,15 @@ allowfullscreen>
 
 ## Optimal Control for Unknown Dynamics
 
+I analyzed and implemented a new algorithm for optimal control problems with unknown system dynamics based on dynamic programming and stochastic gradient descent. I also implemented benchmark reinforcement learning algorithms: Policy Gradient, Random Search and Q-learning, and compared them with our own developed framework in the linear quadratic regulator problem.
+
+- 📄 [Paper](https://arxiv.org/abs/2510.00308)
+- 💻 [GitHub Repository](https://github.com/Panos20102k/Learning-LQR)
+
+I implemented a gradient-free stochastic optimization algorithm on linear systems and validated its theoretical robustness properties.
+
+- 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11610893)
+
 I analyzed and implemented a novel framework for safety-constrained continuous optimal control problems with unknown system dynamics. I derived its theoretical results based on convex analysis and Pontryagin's Minimum Principle and validated the framework on a cruise control application to real wheeled robots.
 
 - 📄 [Paper](https://arxiv.org/abs/2603.27677)
@@ -56,28 +65,16 @@ src="https://www.youtube.com/watch?v=pMSZKlU5O44"
 frameborder="0" 
 allowfullscreen>
 </iframe> -->
-
-I analyzed and implemented a new algorithm for optimal control problems with unknown system dynamics based on dynamic programming and stochastic gradient descent. I also implemented benchmark reinforcement learning algorithms: Policy Gradient, Random Search and Q-learning, and compared them with our own developed framework in the linear quadratic regulator problem.
-
-- 📄 [Paper](https://arxiv.org/abs/2510.00308)
-- 💻 [GitHub Repository](https://github.com/Panos20102k/Learning-LQR)
-
-I implemented a gradient-free stochastic optimization algorithm on linear systems and validated its theoretical robustness properties
-
-- 📄 [Paper](https://arxiv.org/abs/2506.12596)
-
 ---
 
 ## Vehicle Dynamics Modeling for Autonomous Racing
 
-In this project, I developed a vehicle model to enable a thorough evaluation of vehicle motion controllers in
-simulation.
+In this project, I developed a vehicle model to enable a thorough evaluation of vehicle motion controllers in simulation.
 
 - 📄 [Paper](https://dspace.lib.ntua.gr/xmlui/handle/123456789/58426)
 
 I then contributed to an extension of this model, which now runs on the
-software stack of the TUM Autonomous Motorsport team and is used to evaluate vehicle motion
-controllers in simulation. The model is validated against data recorded from the fastest lap of TUM Autonomous Motorsport in Monza 2023, with vehicle speeds up to 267 km/h.
+software stack of the TUM Autonomous Motorsport team and is used to evaluate vehicle motion controllers in simulation. The model is validated against data recorded from the fastest lap of TUM Autonomous Motorsport in Monza 2023, with vehicle speeds up to 267 km/h.
 
 - 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/10588858)
 - 💻 [GitHub Repository](https://github.com/TUMFTM/Open-Car-Dynamics)
