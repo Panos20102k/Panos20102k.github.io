@@ -17,8 +17,8 @@ P. Kounatidis, and A. A. Malikopoulos
 
 **On the Robustness of Derivative-free Methods for Linear Quadratic Regulator**  
 W. Li, P. Kounatidis, and A. A. Malikopoulos  
-*arXiv preprint arXiv: 2506.12596*  
-[Paper](https://arxiv.org/abs/2506.12596)
+*IEEE Transactions on Automatic Control*  
+[Paper](https://ieeexplore.ieee.org/abstract/document/11610893)
 
 **Combining Graph Attention Networks and Distributed Optimization for Multi-Robot Mixed-Integer Convex Programming**  
 V.-A. Le, P. Kounatidis, and A. A. Malikopoulos  
