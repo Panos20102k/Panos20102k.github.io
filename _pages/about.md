@@ -7,12 +7,12 @@ author_profile: true
 
 # About Me
 
-I am a PhD candidate in Systems Engineering at Cornell University, advised by Prof. [Andreas Malikopoulos](https://ids-lab.net/). 
-I work on learning-based control methods for multi-robot systems. I operate the [LIMO ROS2 robots](https://global.agilex.ai/products/limo-ros2).
+I am a PhD candidate in Systems Engineering at Cornell University, working at the intersection of optimal control, machine learning, and robotics. 
 
-Previously, I was a graduate researcher at the [Institute of Automotive Technology](https://www.mos.ed.tum.de/ftm/startseite/) at the Technical University of Munich (TUM), advised by Dr. [Simon Sagmeister](https://www.mos.ed.tum.de/ftm/personen/mitarbeiter/simon-sagmeister-m-sc/), team lead of [TUM Autonomous Motorsport](https://www.mos.ed.tum.de/en/ftm/main-research/intelligent-vehicle-systems/tum-autonomous-motorsport/).
+My work combines theoretical analysis with practical implementation. I develop optimization and learning algorithms, build simulation and ROS 2 pipelines, and validate control methods on the [LIMO ROS2 robots](https://global.agilex.ai/products/limo-ros2).
 
-I received my Diploma (integrated Bachelor & Master) in Mechanical Engineering from the National Technical University of Athens (NTUA) with a GPA of 8.82/10.00, which ranked in the top 3.57%.
+Previously, I conducted research at the [Institute of Automotive Technology](https://www.mos.ed.tum.de/ftm/startseite/) at the Technical University of Munich, where I contributed to vehicle-dynamics modeling for [TUM Autonomous Motorsport](https://www.mos.ed.tum.de/en/ftm/main-research/intelligent-vehicle-systems/tum-autonomous-motorsport/). I received my Diploma in Mechanical Engineering from the National Technical University of Athens, graduating with a GPA of 8.82/10 and ranking in the top 3.57% of my class.
+
 
 ---
 
@@ -29,14 +29,38 @@ I received my Diploma (integrated Bachelor & Master) in Mechanical Engineering f
 # Projects
 ## Real-Time Optimal Multi-Robot Navigation
 
-In this project, we developed a machine-learning-enhanced MPC algorithm for real-time multi-robot navigation with joint optimiziation of the robots' trajectories. To achieve this we leverage graph neural networks to accelerate the solution of the multi-robot mixed-integer quadratic program (MIQP). The navigation stack that we developed in this work is validated on the LIMO ROS2 robots, showcasing solution of the multi-robot MIQP in less than every 200 ms, with vehicle speeds up to 0.5 m/sec.
+Working with Dr. Viet-Ahn Le, we developed a machine-learning-enhanced MPC framework for real-time multi-robot navigation with joint optimiziation of the robots' trajectories. To achieve this we leverage graph neural networks to accelerate the solution of the multi-robot mixed-integer quadratic program (MIQP). 
+
+**My Contributions:** I integrated Dr. Viet-Ahn Le's learning-based optimization algorithm into an MPC framework and connected it to a complete ROS 2 navigation pipeline without modifying the optimizer itself. I implemented a trajectory-tracking controller based on input-output linearization of the unicycle model, configured an Extended Kalman Filter for state estimation, and trained the optimizer's Graph Neural Network using simulation data in Python and PyTorch. I then integrated the complete system in ROS 2, developed a Gazebo simulation from scratch for rapid validation, debugged, fine-tuned parameters, and tested the resulting stack on three physical LIMO robots.
+
+**Results:** The navigation stack delivers solution of the multi-robot MIQP in less than every 200 ms, with vehicle speeds up to 0.5 m/sec.
 
 - 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11312656)
-<!-- - 💻 [GitHub Repository](https://github.com/Panos20102k/Multi-Limo-Control) -->
+- 💻 [GitHub Repository](https://github.com/Panos20102k/Multi-Limo-Control)
 - 🎥 Project Video:
 
 <iframe width="560" height="315" 
 src="https://www.youtube.com/embed/3Of0j3a5fGw" 
+frameborder="0" 
+allowfullscreen>
+</iframe>
+
+---
+
+## Vehicle Dynamics Modeling for Autonomous Racing
+
+Working with Dr. Simon Sagmeister, we developed a high-fidelity multi-body vehicle dynamics model and integrated it into the stack of TUM Autonomous Motorsport. We then validated the model through software-in-the-loop testing against data recorded from the fastest lap of TUM Autonomous Motorsport in Monza 2023, with vehicle speeds up to 267 km/h. 
+
+**My Contributions:** I developed an [initial version](https://dspace.lib.ntua.gr/xmlui/handle/123456789/58426) of the vehicle dynamics model, and later contributed to its implementation in C++ and integration into the stack.
+
+**Results:** We compared our validated model with simplified versions of it commonly used in practice thereby addressing the question: *what is important to model in vehicle dynamics for autonomous racing?*
+
+- 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/10588858)
+- 💻 [GitHub Repository](https://github.com/TUMFTM/Open-Car-Dynamics)
+- 🎥 [Project Video](https://www.youtube.com/watch?v=2uVidmMZ9ns)
+
+<iframe width="560" height="315" 
+src="https://www.youtube.com/watch?v=2uVidmMZ9ns" 
 frameborder="0" 
 allowfullscreen>
 </iframe>
@@ -67,26 +91,6 @@ allowfullscreen>
 </iframe> -->
 ---
 
-## Vehicle Dynamics Modeling for Autonomous Racing
-
-In this project, I developed a vehicle model to enable a thorough evaluation of vehicle motion controllers in simulation.
-
-- 📄 [Paper](https://dspace.lib.ntua.gr/xmlui/handle/123456789/58426)
-
-I then contributed to an extension of this model, which now runs on the
-software stack of the TUM Autonomous Motorsport team and is used to evaluate vehicle motion controllers in simulation. The model is validated against data recorded from the fastest lap of TUM Autonomous Motorsport in Monza 2023, with vehicle speeds up to 267 km/h.
-
-- 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/10588858)
-- 💻 [GitHub Repository](https://github.com/TUMFTM/Open-Car-Dynamics)
-- 🎥 [Project Video](https://www.youtube.com/watch?v=2uVidmMZ9ns)
-
-<!-- <iframe width="560" height="315" 
-src="https://www.youtube.com/watch?v=2uVidmMZ9ns" 
-frameborder="0" 
-allowfullscreen>
-</iframe> -->
-
----
 
 # Fellowships & Awards
 
