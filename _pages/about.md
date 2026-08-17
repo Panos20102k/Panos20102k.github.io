@@ -59,15 +59,17 @@ Working with Dr. Simon Sagmeister, we developed [Open-Car-Dynamics](https://gith
 - 💻 [GitHub Repository](https://github.com/TUMFTM/Open-Car-Dynamics)
 - 🎥 [Project Video](https://www.youtube.com/embed/2uVidmMZ9ns)
 
-<iframe width="560" height="315" 
+<!-- <iframe width="560" height="315" 
 src="https://www.youtube.com/watch?v=2uVidmMZ9ns" 
 frameborder="0" 
 allowfullscreen>
-</iframe>
+</iframe> -->
 
-<img src="../images/tum.png"
-     alt="Open-Car-Dynamics vehicle model"
-     width="560">
+<div style="text-align: center;">
+  <img src="../images/tum.png"
+       alt="Open-Car-Dynamics vehicle model"
+       width="560">
+</div>
 
 ---
 
