@@ -41,15 +41,13 @@ Working with Dr. Viet-Anh Le, we developed a machine-learning-enhanced MPC frame
 - 💻 [GitHub Repository](https://github.com/Panos20102k/Multi-Limo-Control)
 - 🎥 [Project Video](https://www.youtube.com/watch?v=3Of0j3a5fGw)
 
-<div style="position: relative; width: 100%; padding-bottom: 56.25%; margin-top: 1rem; margin-bottom: 1.5rem;">
-  <iframe
-    src="https://www.youtube.com/embed/3Of0j3a5fGw"
-    title="Real-Time Optimal Multi-Robot Navigation on LIMO Robots"
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen>
-  </iframe>
-</div>
+<iframe
+  src="https://www.youtube.com/embed/3Of0j3a5fGw"
+  title="Real-Time Optimal Multi-Robot Navigation on LIMO Robots"
+  style="display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; margin: 1rem 0;"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
+</iframe>
 
 ---
 
