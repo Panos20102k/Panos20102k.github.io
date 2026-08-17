@@ -53,7 +53,7 @@ Working with Dr. Simon Sagmeister, we developed [Open-Car-Dynamics](https://gith
 
 **My Contributions:** I developed an [initial version](https://dspace.lib.ntua.gr/xmlui/handle/123456789/58426) of the vehicle dynamics model, and later contributed to its implementation in C++ and integration into the software stack of the team.
 
-**Results:** We evaluated the simulation accuracy of our model and of several simplified versions of it that are commonly used in practice. The results of the comparison address the question: *what is important to model in vehicle dynamics for autonomous racing?*
+**Results:** We evaluated the simulation accuracy of our model and of several simplified versions of it that are commonly used in practice. The results of the comparison address the question: *What is important to model in vehicle dynamics for autonomous racing?*
 
 - 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/10588858)
 - 💻 [GitHub Repository](https://github.com/TUMFTM/Open-Car-Dynamics)
@@ -65,7 +65,7 @@ frameborder="0"
 allowfullscreen>
 </iframe>
 
-<img src="../images/your-image.png"
+<img src="../images/tum.png"
      alt="Open-Car-Dynamics vehicle model"
      width="560">
 
@@ -73,7 +73,7 @@ allowfullscreen>
 
 ## Optimal Control for Unknown Dynamics
 
-I analyzed and implemented a new algorithm for optimal control problems with unknown system dynamics based on dynamic programming and stochastic gradient descent. I also implemented benchmark reinforcement learning algorithms: Policy Gradient, Random Search and Q-learning, and compared them with our own developed framework in the linear quadratic regulator problem.
+I analyzed and implemented a new algorithm for optimal control problems with unknown system dynamics based on dynamic programming and stochastic gradient descent. I then implemented benchmark reinforcement learning algorithms: Policy Gradient, Random Search and Q-learning, and compared them with our own developed framework in the linear quadratic regulator problem.
 
 - 📄 [Paper](https://arxiv.org/abs/2510.00308)
 - 💻 [GitHub Repository](https://github.com/Panos20102k/Learning-LQR)
