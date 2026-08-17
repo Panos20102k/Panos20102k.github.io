@@ -7,7 +7,7 @@ author_profile: true
 
 # About Me
 
-I am a PhD candidate in Systems Engineering at Cornell University, working at the intersection of optimal control, machine learning, and robotics. 
+I am a PhD candidate in Systems Engineering at the [IDS Lab](https://ids-lab.net/) at Cornell University, working at the intersection of optimal control, machine learning, and robotics. 
 
 My work combines theoretical analysis with practical implementation. I develop optimization and learning algorithms, build simulation and ROS 2 pipelines, and validate control methods on the [LIMO ROS2 robots](https://global.agilex.ai/products/limo-ros2).
 
@@ -29,7 +29,7 @@ Previously, I conducted research at the [Institute of Automotive Technology](htt
 # Projects
 ## Real-Time Optimal Multi-Robot Navigation
 
-Working with Dr. Viet-Ahn Le, we developed a machine-learning-enhanced MPC framework for real-time multi-robot navigation with joint optimiziation of the robots' trajectories. To achieve this we leverage graph neural networks to accelerate the solution of the multi-robot mixed-integer quadratic program (MIQP). 
+Working with Dr. Viet-Ahn Le, we developed a machine-learning-enhanced MPC framework for real-time multi-robot navigation with joint optimiziation of the robots' trajectories. To achieve this we leverage graph neural networks and distributed optimization to accelerate the solution of the multi-robot mixed-integer quadratic program (MIQP). 
 
 **My Contributions:** I integrated Dr. Viet-Ahn Le's learning-based optimization algorithm into an MPC framework and connected it to a complete ROS 2 navigation pipeline without modifying the optimizer itself. I implemented a trajectory-tracking controller based on input-output linearization of the unicycle model, configured an Extended Kalman Filter for state estimation, and trained the optimizer's Graph Neural Network using simulation data in Python and PyTorch. I then integrated the complete system in ROS 2, developed a Gazebo simulation from scratch for rapid validation, debugged, fine-tuned parameters, and tested the resulting stack on three physical LIMO robots.
 
@@ -37,7 +37,7 @@ Working with Dr. Viet-Ahn Le, we developed a machine-learning-enhanced MPC frame
 
 - 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11312656)
 - 💻 [GitHub Repository](https://github.com/Panos20102k/Multi-Limo-Control)
-- 🎥 Project Video:
+- 🎥 [Project Video](https://www.youtube.com/embed/3Of0j3a5fGw)
 
 <iframe width="560" height="315" 
 src="https://www.youtube.com/embed/3Of0j3a5fGw" 
@@ -49,21 +49,25 @@ allowfullscreen>
 
 ## Vehicle Dynamics Modeling for Autonomous Racing
 
-Working with Dr. Simon Sagmeister, we developed a high-fidelity multi-body vehicle dynamics model and integrated it into the stack of TUM Autonomous Motorsport. We then validated the model through software-in-the-loop testing against data recorded from the fastest lap of TUM Autonomous Motorsport in Monza 2023, with vehicle speeds up to 267 km/h. 
+Working with Dr. Simon Sagmeister, we developed [Open-Car-Dynamics](https://github.com/TUMFTM/Open-Car-Dynamics), a high-fidelity multi-body vehicle dynamics model for the autonomous formula race car of TUM Autonomous Motorsport. We validated the model through software-in-the-loop testing against data recorded from the fastest lap of TUM Autonomous Motorsport in Monza 2023, with vehicle speeds up to 267 km/h. 
 
-**My Contributions:** I developed an [initial version](https://dspace.lib.ntua.gr/xmlui/handle/123456789/58426) of the vehicle dynamics model, and later contributed to its implementation in C++ and integration into the stack.
+**My Contributions:** I developed an [initial version](https://dspace.lib.ntua.gr/xmlui/handle/123456789/58426) of the vehicle dynamics model, and later contributed to its implementation in C++ and integration into the software stack of the team.
 
-**Results:** We compared our validated model with simplified versions of it commonly used in practice thereby addressing the question: *what is important to model in vehicle dynamics for autonomous racing?*
+**Results:** We evaluated the simulation accuracy of our model and of several simplified versions of it that are commonly used in practice. The results of the comparison address the question: *what is important to model in vehicle dynamics for autonomous racing?*
 
 - 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/10588858)
 - 💻 [GitHub Repository](https://github.com/TUMFTM/Open-Car-Dynamics)
-- 🎥 [Project Video](https://www.youtube.com/watch?v=2uVidmMZ9ns)
+- 🎥 [Project Video](https://www.youtube.com/embed/2uVidmMZ9ns)
 
 <iframe width="560" height="315" 
 src="https://www.youtube.com/watch?v=2uVidmMZ9ns" 
 frameborder="0" 
 allowfullscreen>
 </iframe>
+
+<img src="../images/your-image.png"
+     alt="Open-Car-Dynamics vehicle model"
+     width="560">
 
 ---
 
