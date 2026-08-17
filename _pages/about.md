@@ -57,13 +57,17 @@ Working with Dr. Simon Sagmeister, we developed [Open-Car-Dynamics](https://gith
 
 - 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/10588858)
 - 💻 [GitHub Repository](https://github.com/TUMFTM/Open-Car-Dynamics)
-- 🎥 [Project Video](https://www.youtube.com/embed/2uVidmMZ9ns)
+- 🎥 [Project Video](https://www.youtube.com/watch?v=2uVidmMZ9ns)
 
-<!-- <iframe width="560" height="315" 
-src="https://www.youtube.com/watch?v=2uVidmMZ9ns" 
-frameborder="0" 
-allowfullscreen>
-</iframe> -->
+<div style="position: relative; width: 100%; padding-bottom: 56.25%; margin-top: 1rem; margin-bottom: 1.5rem;">
+  <iframe
+    src="https://www.youtube.com/embed/2uVidmMZ9ns"
+    title="Open-Car-Dynamics: Vehicle Dynamics Modeling for Autonomous Racing"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
 
 <div style="text-align: center;">
   <img src="../images/tum.png"
