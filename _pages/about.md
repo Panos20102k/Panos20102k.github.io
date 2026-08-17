@@ -29,21 +29,27 @@ Previously, I conducted research at the [Institute of Automotive Technology](htt
 # Projects
 ## Real-Time Optimal Multi-Robot Navigation
 
-Working with Dr. Viet-Ahn Le, we developed a machine-learning-enhanced MPC framework for real-time multi-robot navigation with joint optimiziation of the robots' trajectories. To achieve this we leverage graph neural networks and distributed optimization to accelerate the solution of the multi-robot mixed-integer quadratic program (MIQP). 
+## Real-Time Optimal Multi-Robot Navigation
 
-**My Contributions:** I integrated Dr. Viet-Ahn Le's learning-based optimization algorithm into an MPC framework and connected it to a complete ROS 2 navigation pipeline without modifying the optimizer itself. I implemented a trajectory-tracking controller based on input-output linearization of the unicycle model, configured an Extended Kalman Filter for state estimation, and trained the optimizer's Graph Neural Network using simulation data in Python and PyTorch. I then integrated the complete system in ROS 2, developed a Gazebo simulation from scratch for rapid validation, debugged, fine-tuned parameters, and tested the resulting stack on three physical LIMO robots.
+Working with Dr. Viet-Anh Le, we developed a machine-learning-enhanced MPC framework for real-time multi-robot navigation with joint optimization of the robots’ trajectories. The framework combines graph neural networks with distributed optimization to accelerate the solution of the underlying multi-robot mixed-integer quadratic program (MIQP).
 
-**Results:** The navigation stack delivers solution of the multi-robot MIQP in less than every 200 ms, with vehicle speeds up to 0.5 m/sec.
+**My Contributions:** I integrated Dr. Viet-Anh Le’s learning-based optimization algorithm into an MPC framework and connected it to a complete ROS 2 navigation pipeline without modifying the optimizer itself. I implemented a trajectory-tracking controller based on input-output linearization of the unicycle model, configured an Extended Kalman Filter for state estimation, and trained the optimizer’s graph neural network using simulation data in Python and PyTorch. I then integrated the complete system in ROS 2, developed a Gazebo simulation environment from scratch, tuned and debugged the navigation stack, and validated it on three physical LIMO robots.
+
+**Results:** The navigation stack solves the multi-robot MIQP in under 200 ms while coordinating three physical robots at speeds of up to 0.5 m/s.
 
 - 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11312656)
 - 💻 [GitHub Repository](https://github.com/Panos20102k/Multi-Limo-Control)
-- 🎥 [Project Video](https://www.youtube.com/embed/3Of0j3a5fGw)
+- 🎥 [Project Video](https://www.youtube.com/watch?v=3Of0j3a5fGw)
 
-<iframe width="560" height="315" 
-src="https://www.youtube.com/embed/3Of0j3a5fGw" 
-frameborder="0" 
-allowfullscreen>
-</iframe>
+<div style="position: relative; width: 100%; padding-bottom: 56.25%; margin-top: 1rem; margin-bottom: 1.5rem;">
+  <iframe
+    src="https://www.youtube.com/embed/3Of0j3a5fGw"
+    title="Real-Time Optimal Multi-Robot Navigation on LIMO Robots"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
 
 ---
 
