@@ -29,7 +29,7 @@ Previously, I conducted research at the [Institute of Automotive Technology](htt
 # Projects
 ## Real-Time Optimal Multi-Robot Navigation
 
-Working with Dr. Viet-Anh Le, we developed a machine-learning-enhanced MPC framework for real-time multi-robot navigation with joint optimization of the robots’ trajectories. The framework combines graph neural networks with distributed optimization to accelerate the solution of the underlying multi-robot mixed-integer quadratic program (MIQP).
+Working with Dr. [Viet-Anh Le](https://vietanhle0101.github.io/), we developed a machine-learning-enhanced MPC framework for real-time multi-robot navigation with joint optimization of the robots’ trajectories. The framework combines graph neural networks with distributed optimization to accelerate the solution of the underlying multi-robot mixed-integer quadratic program (MIQP).
 
 **My Contributions:** I integrated Dr. Viet-Anh Le’s learning-based optimization algorithm into an MPC framework and connected it to a complete ROS 2 navigation pipeline without modifying the optimizer itself. I implemented a trajectory-tracking controller based on input-output linearization of the unicycle model, configured an Extended Kalman Filter for state estimation, and trained the optimizer’s graph neural network using simulation data in Python and PyTorch. I then integrated the complete system in ROS 2, developed a Gazebo simulation environment from scratch, tuned and debugged the navigation stack, and validated it on three physical LIMO robots.
 
