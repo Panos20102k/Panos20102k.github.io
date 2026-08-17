@@ -122,19 +122,18 @@ I implemented the framework for adaptive cruise control and validated it experim
 
 ## Robust Derivative-Free LQR
 
-I implemented a gradient-free stochastic optimization algorithm on linear systems and validated its theoretical robustness properties.
+I implemented and evaluated a derivative-free stochastic optimization method for learning linear-quadratic regulators without direct model or gradient information. The study characterizes how errors in gradient estimation affect convergence and closed-loop performance.
+
+**Results** Numerical experiments demonstrated that both one-point and two-point derivative-free methods converge toward the optimal LQR policy despite errors from noisy measurements and approximate cost evaluations. The experiments also confirmed the theoretical relationship between the allowable perturbation and the desired accuracy, providing practical guidance for selecting the sampling radius, step size, and rollout length.
 
 - 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11610893)
 
-I analyzed and implemented a novel framework for safety-constrained continuous optimal control problems with unknown system dynamics. I derived its theoretical results based on convex analysis and Pontryagin's Minimum Principle and validated the framework on a cruise control application to real wheeled robots.
+<div style="text-align: center;">
+  <img src="../images/weijian.png"
+       alt="Open-Car-Dynamics vehicle model"
+       width="800">
+</div>
 
-
-
-<!-- <iframe width="560" height="315" 
-src="https://www.youtube.com/watch?v=pMSZKlU5O44" 
-frameborder="0" 
-allowfullscreen>
-</iframe> -->
 ---
 
 
