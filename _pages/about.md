@@ -73,12 +73,21 @@ allowfullscreen>
 
 ---
 
-## Optimal Control for Unknown Dynamics
+## Combined Learning and Control
 
-I analyzed and implemented a new algorithm for optimal control problems with unknown system dynamics based on dynamic programming and stochastic gradient descent. I then implemented benchmark reinforcement learning algorithms: Policy Gradient, Random Search and Q-learning, and compared them with our own developed framework in the linear quadratic regulator problem.
+I developed the [CLC](https://github.com/Panos20102k/Learning-LQR) algorithm, a new algorithm for optimal control problems with unknown system dynamics based on dynamic programming and stochastic gradient descent. Instead of identifying a complete dynamics model before computing a controller, CLC iteratively learns cost parameters to converge to the optimal policy.
+I then implemented benchmark reinforcement learning algorithms: Policy Gradient, Random Search and Q-learning, and compared them with CLC in the linear quadratic regulator problem.
+
+**Results:** CLC successfully learns the parameters required to recover the optimal control cost without knowledge of the real system dynamics. Although less sample-efficient than methods tailored to linear policies, it required fewer structural assumptions and can accommodate nonlinear optimal feedback laws.
 
 - 📄 [Paper](https://arxiv.org/abs/2510.00308)
 - 💻 [GitHub Repository](https://github.com/Panos20102k/Learning-LQR)
+
+<div style="text-align: center;">
+  <img src="../images/clc.png"
+       alt="Open-Car-Dynamics vehicle model"
+       width="800">
+</div>
 
 I implemented a gradient-free stochastic optimization algorithm on linear systems and validated its theoretical robustness properties.
 
