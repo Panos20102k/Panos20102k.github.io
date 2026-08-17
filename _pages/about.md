@@ -137,7 +137,7 @@ I implemented and evaluated a derivative-free stochastic optimization method for
 <div style="text-align: center;">
   <img src="../images/weijian.png"
        alt="Open-Car-Dynamics vehicle model"
-       width="800">
+       width="700">
 </div>
 
 ---
