@@ -97,14 +97,26 @@ I developed a theoretical framework for solving continuous-time optimal control 
 
 I implemented the framework for adaptive cruise control and validated it experimentally on the LIMO ROS 2 robots, including scenarios with active rear-end safety constraints.
 
+**Results** Experiments on two LIMO robots showed that the penalized model-based controller recovered the same optimal control strategy as a controller with access to the true plant dynamics, despite substantial errors in the assumed actuation gain and time constant. The ego robot regulated its velocity while respecting the rear-end safety constraint, demonstrating that accurate system identification is not always necessary for safe and optimal control.
+
 - 📄 [Paper](https://arxiv.org/abs/2603.27677)
 - 💻 [GitHub Repository](https://github.com/Panos20102k/Multi-Limo-Control) 
 - 🎥 [Project Video](https://www.youtube.com/watch?v=pMSZKlU5O44)
 
-**Results** Experiments on two LIMO robots showed that the penalized model-based controller recovered the same optimal control strategy as a controller with access to the true plant dynamics, despite substantial errors in the assumed actuation gain and time constant. The ego robot regulated its velocity while respecting the rear-end safety constraint, demonstrating that accurate system identification is not always necessary for safe and optimal control.
+<div style="position: relative; width: 100%; padding-bottom: 56.25%; margin-top: 1rem;">
+  <iframe
+    src="https://www.youtube.com/embed/pMSZKlU5O44"
+    title="Safety-Constrained Optimal Control on LIMO Robots"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
 
 ---
 
+## Robust Derivative-Free LQR
 
 I implemented a gradient-free stochastic optimization algorithm on linear systems and validated its theoretical robustness properties.
 
