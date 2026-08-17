@@ -23,7 +23,7 @@ W. Li, P. Kounatidis, and A. A. Malikopoulos
 **Combining Graph Attention Networks and Distributed Optimization for Multi-Robot Mixed-Integer Convex Programming**  
 V.-A. Le, P. Kounatidis, and A. A. Malikopoulos  
 *2025 IEEE 64th Conference on Decision and Control (CDC)*    
-[Paper](https://ieeexplore.ieee.org/abstract/document/11312656), [Video](https://www.youtube.com/watch?v=3Of0j3a5fGw)
+[Paper](https://ieeexplore.ieee.org/abstract/document/11312656), [Code](https://github.com/Panos20102k/Multi-Limo-Control), [Video](https://www.youtube.com/watch?v=3Of0j3a5fGw)
 
 **Analyzing the Impact of Simulation Fidelity on the Evaluation of Autonomous Driving Motion Control**  
 S. Sagmeister, P. Kounatidis, S. Goblirsch and M. Lienkamp  
