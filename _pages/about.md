@@ -89,15 +89,30 @@ I then implemented benchmark reinforcement learning algorithms: Policy Gradient,
        width="800">
 </div>
 
+---
+
+## Safety-Constrained Optimal Control for Unknown Dynamics
+
+I developed a theoretical framework for solving continuous-time optimal control problems when the plant dynamics are unknown and safety constraints must be satisfied. Using convex analysis and Pontryagin’s Minimum Principle, I established conditions under which model-derived control decisions remain optimal for the physical system.
+
+I implemented the framework for adaptive cruise control and validated it experimentally on the LIMO ROS 2 robots, including scenarios with active rear-end safety constraints.
+
+- 📄 [Paper](https://arxiv.org/abs/2603.27677)
+- 💻 [GitHub Repository](https://github.com/Panos20102k/Multi-Limo-Control) 
+- 🎥 [Project Video](https://www.youtube.com/watch?v=pMSZKlU5O44)
+
+**Results** Experiments on two LIMO robots showed that the penalized model-based controller recovered the same optimal control strategy as a controller with access to the true plant dynamics, despite substantial errors in the assumed actuation gain and time constant. The ego robot regulated its velocity while respecting the rear-end safety constraint, demonstrating that accurate system identification is not always necessary for safe and optimal control.
+
+---
+
+
 I implemented a gradient-free stochastic optimization algorithm on linear systems and validated its theoretical robustness properties.
 
 - 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11610893)
 
 I analyzed and implemented a novel framework for safety-constrained continuous optimal control problems with unknown system dynamics. I derived its theoretical results based on convex analysis and Pontryagin's Minimum Principle and validated the framework on a cruise control application to real wheeled robots.
 
-- 📄 [Paper](https://arxiv.org/abs/2603.27677)
-- 💻 [GitHub Repository](https://github.com/Panos20102k/Multi-Limo-Control) 
-- 🎥 [Project Video](https://www.youtube.com/watch?v=pMSZKlU5O44)
+
 
 <!-- <iframe width="560" height="315" 
 src="https://www.youtube.com/watch?v=pMSZKlU5O44" 
