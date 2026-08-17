@@ -82,7 +82,7 @@ Working with Dr. Simon Sagmeister, we developed [Open-Car-Dynamics](https://gith
 I developed the [CLC](https://github.com/Panos20102k/Learning-LQR) algorithm, a new algorithm for optimal control problems with unknown system dynamics based on dynamic programming and stochastic gradient descent. Instead of identifying a complete dynamics model before computing a controller, CLC iteratively learns cost parameters to converge to the optimal policy.
 I then implemented benchmark reinforcement learning algorithms: Policy Gradient, Random Search and Q-learning, and compared them with CLC in the linear quadratic regulator problem.
 
-**Results:** CLC successfully learns the parameters required to recover the optimal control cost without knowledge of the real system dynamics. Although less sample-efficient than methods tailored to linear policies, it required fewer structural assumptions and can accommodate nonlinear optimal feedback laws.
+**Results:** CLC successfully learns the parameters required to recover the optimal control cost without knowledge of the real system dynamics. Although less sample-efficient than methods tailored to linear policies, it requires fewer structural assumptions and can accommodate nonlinear optimal feedback laws.
 
 - 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11615492)
 - 💻 [GitHub Repository](https://github.com/Panos20102k/Learning-LQR)
