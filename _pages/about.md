@@ -61,15 +61,13 @@ Working with Dr. Simon Sagmeister, we developed [Open-Car-Dynamics](https://gith
 - 💻 [GitHub Repository](https://github.com/TUMFTM/Open-Car-Dynamics)
 - 🎥 [Project Video](https://www.youtube.com/watch?v=2uVidmMZ9ns)
 
-<div style="position: relative; width: 100%; padding-bottom: 56.25%; margin-top: 1rem; margin-bottom: 1.5rem;">
-  <iframe
-    src="https://www.youtube.com/embed/2uVidmMZ9ns"
-    title="Open-Car-Dynamics: Vehicle Dynamics Modeling for Autonomous Racing"
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen>
-  </iframe>
-</div>
+<iframe
+  src="https://www.youtube.com/embed/2uVidmMZ9ns"
+  title="Open-Car-Dynamics: Vehicle Dynamics Modeling for Autonomous Racing"
+  style="display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; margin: 1rem 0;"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
+</iframe>
 
 <div style="text-align: center;">
   <img src="../images/tum.png"
@@ -109,15 +107,13 @@ I implemented the framework for adaptive cruise control and validated it experim
 - 💻 [GitHub Repository](https://github.com/Panos20102k/Multi-Limo-Control) 
 - 🎥 [Project Video](https://www.youtube.com/watch?v=pMSZKlU5O44)
 
-<div style="position: relative; width: 100%; padding-bottom: 56.25%; margin-top: 1rem;">
-  <iframe
-    src="https://www.youtube.com/embed/pMSZKlU5O44"
-    title="Safety-Constrained Optimal Control on LIMO Robots"
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen>
-  </iframe>
-</div>
+<iframe
+  src="https://www.youtube.com/embed/pMSZKlU5O44"
+  title="Safety-Constrained Optimal Control on LIMO Robots"
+  style="display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; margin: 1rem 0;"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
+</iframe>
 
 
 ---
