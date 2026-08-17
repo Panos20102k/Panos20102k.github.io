@@ -80,7 +80,7 @@ I then implemented benchmark reinforcement learning algorithms: Policy Gradient,
 
 **Results:** CLC successfully learns the parameters required to recover the optimal control cost without knowledge of the real system dynamics. Although less sample-efficient than methods tailored to linear policies, it required fewer structural assumptions and can accommodate nonlinear optimal feedback laws.
 
-- 📄 [Paper](https://arxiv.org/abs/2510.00308)
+- 📄 [Paper](https://ieeexplore.ieee.org/abstract/document/11615492)
 - 💻 [GitHub Repository](https://github.com/Panos20102k/Learning-LQR)
 
 <div style="text-align: center;">
