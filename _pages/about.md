@@ -68,7 +68,7 @@ allowfullscreen>
 <div style="text-align: center;">
   <img src="../images/tum.png"
        alt="Open-Car-Dynamics vehicle model"
-       width="560">
+       width="800">
 </div>
 
 ---
