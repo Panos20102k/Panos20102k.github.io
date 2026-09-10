@@ -104,10 +104,10 @@ Motivated by these conditions, I developed a fully online method that uses integ
 I implemented the framework for optimal adaptive cruise control with unknown dynamics and validated it experimentally on the LIMO ROS 2 robots.
 
 **Results:** 
-1. Safety-Constrained Cruise Control
+1. **Safety-Constrained Cruise Control:**
 Experiments on two LIMO robots showed that the penalized model-based controller recovered the same optimal control strategy as a controller with access to the true plant dynamics, despite substantial errors in the assumed actuation gain and time constant. The ego robot regulated its velocity while respecting the rear-end safety constraint, demonstrating that accurate system identification is not always necessary for safe and optimal control.
 
-2. Hamiltonian Gradient Learning Cruise Control
+2. **Hamiltonian Gradient Learning Cruise Control:**
 Experiments on a LIMO robot showed that the online learner reconstructed the plant’s Hamiltonian gradient and converged to the optimal affine control policy directly from trajectory data, without identifying the full dynamics or resetting the robot’s state. The learned policies successfully tracked two reference velocities and were later recalled, demonstrating continuous learning and reuse of optimal controllers.
 
 - 📄 [Paper](https://arxiv.org/abs/2603.27677)
