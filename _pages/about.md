@@ -97,19 +97,35 @@ I then implemented benchmark reinforcement learning algorithms: Policy Gradient,
 
 ## Safety-Constrained Optimal Control for Unknown Dynamics
 
-I developed a theoretical framework for solving continuous-time optimal control problems when the plant dynamics are unknown and safety constraints must be satisfied. Using convex analysis and Pontryagin’s Minimum Principle, I established conditions under which model-derived control decisions remain optimal for the physical system.
+I developed a theoretical framework for solving optimal control problems when the plant dynamics are unknown and safety constraints must be satisfied. Using convex analysis and Pontryagin’s Minimum Principle, I established conditions under which model-derived control decisions remain optimal for the physical system.
 
-I implemented the framework for adaptive cruise control and validated it experimentally on the LIMO ROS 2 robots, including scenarios with active rear-end safety constraints.
+Motivated by these conditions, I developed a fully online method that uses integral trajectory data and policy iteration to learn the dynamics-dependent factors of the plant Hamiltonian gradient.
 
-**Results** Experiments on two LIMO robots showed that the penalized model-based controller recovered the same optimal control strategy as a controller with access to the true plant dynamics, despite substantial errors in the assumed actuation gain and time constant. The ego robot regulated its velocity while respecting the rear-end safety constraint, demonstrating that accurate system identification is not always necessary for safe and optimal control.
+I implemented the framework for optimal adaptive cruise control with unknown dynamics and validated it experimentally on the LIMO ROS 2 robots.
+
+**Results:** 
+1. Safety-Constrained Cruise Control
+Experiments on two LIMO robots showed that the penalized model-based controller recovered the same optimal control strategy as a controller with access to the true plant dynamics, despite substantial errors in the assumed actuation gain and time constant. The ego robot regulated its velocity while respecting the rear-end safety constraint, demonstrating that accurate system identification is not always necessary for safe and optimal control.
+
+2. Hamiltonian Gradient Learning Cruise Control
+Experiments on a LIMO robot showed that the online learner reconstructed the plant’s Hamiltonian gradient and converged to the optimal affine control policy directly from trajectory data, without identifying the full dynamics or resetting the robot’s state. The learned policies successfully tracked two reference velocities and were later recalled, demonstrating continuous learning and reuse of optimal controllers.
 
 - 📄 [Paper](https://arxiv.org/abs/2603.27677)
 - 💻 [GitHub Repository](https://github.com/Panos20102k/Multi-Limo-Control) 
-- 🎥 [Project Video](https://www.youtube.com/watch?v=pMSZKlU5O44)
+- 🎥 [Project Video #1](https://www.youtube.com/watch?v=pMSZKlU5O44)
+- 🎥 [Project Video #2](https://www.youtube.com/watch?v=p3qw2oOFOpg)
 
 <iframe
   src="https://www.youtube.com/embed/pMSZKlU5O44"
   title="Safety-Constrained Optimal Control on LIMO Robots"
+  style="display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; margin: 1rem 0;"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
+</iframe>
+
+<iframe
+  src="https://www.youtube.com/watch?v=p3qw2oOFOpg"
+  title="Hamiltonian Gradient Learning Cruise Control"
   style="display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; margin: 1rem 0;"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen>
