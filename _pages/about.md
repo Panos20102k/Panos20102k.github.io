@@ -124,7 +124,7 @@ Experiments on a LIMO robot showed that the online learner reconstructed the pla
 </iframe>
 
 <iframe
-  src="https://www.youtube.com/watch?v=p3qw2oOFOpg"
+  src="https://www.youtube.com/embed/p3qw2oOFOpg"
   title="Hamiltonian Gradient Learning Cruise Control"
   style="display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; margin: 1rem 0;"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
