@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 ---
-**Safety-Constrained Optimal Control for Unknown System Dynamics**  
+**Safety-Constrained Optimal Control and Hamiltonian-Gradient Learning for Systems with Unknown Dynamics**  
 P. Kounatidis, and A. A. Malikopoulos    
 *arXiv preprint arXiv: 2603.27677*    
 [Paper](https://arxiv.org/abs/2603.27677), [Code](https://github.com/Panos20102k/Multi-Limo-Control), [Video](https://www.youtube.com/watch?v=pMSZKlU5O44)
