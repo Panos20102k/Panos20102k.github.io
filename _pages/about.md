@@ -95,7 +95,7 @@ I then implemented benchmark reinforcement learning algorithms: Policy Gradient,
 
 ---
 
-## Safety-Constrained Optimal Control for Unknown Dynamics
+## Hamiltonian-based Optimal Control and Learning for Unknown Dynamics
 
 I developed a theoretical framework for solving optimal control problems when the plant dynamics are unknown and safety constraints must be satisfied. Using convex analysis and Pontryagin’s Minimum Principle, I established conditions under which model-derived control decisions remain optimal for the physical system.
 
